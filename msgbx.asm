@@ -17,15 +17,6 @@ mov esi, [edx + 0x20] ; ESI = Offset names table
 add esi, ebx          ; ESI = Names table
 xor ecx, ecx          ; EXC = 0
 
-; Find the export table of kernel32.dll
-mov edx, [ebx + 0x3c] ; EDX = DOS->e_lfanew
-add edx, ebx          ; EDX = PE Header
-mov edx, [edx + 0x78] ; EDX = Offset export table
-add edx, ebx          ; EDX = Export table
-mov esi, [edx + 0x20] ; ESI = Offset names table
-add esi, ebx          ; ESI = Names table
-xor ecx, ecx          ; EXC = 0
-
 ; Find GetProcAddress function name
 Get_Function:
  
