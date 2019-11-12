@@ -1,6 +1,6 @@
 # PE File
 
-## [/blob/master/PEfunc.cpp]:
+## [PEfunc.cpp](PEfunc.cpp):
   include file for PE.cpp
   
 ## [PE.cpp]:
