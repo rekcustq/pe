@@ -1,5 +1,11 @@
 # PE File
 
+## PEFunc.cpp:
+  include file for PE.cpp
+  
+## PE.cpp:
+  PE File info(NT_Header, Optional_Header, Data_Directory, Section_Header, Import_Directory, Export_Directory)
+
 ## msgbox.asm:
   asm code for message box -> shellcode
 
