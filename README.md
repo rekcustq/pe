@@ -17,3 +17,6 @@
   
 ## [packer.asm](packer.asm)
   asm, windows api, independent code, self infect all **.exe** file in current folder
+
+## [depacker.cpp](depacker.cpp)
+  c++, remove injected code and restore file
