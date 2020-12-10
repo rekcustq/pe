@@ -9,14 +9,14 @@
 ## [msgbox.asm](msgbox.asm)
   asm code for message box -> shellcode
 
-## [packer.cpp](packer.cpp)
+## [pe_inject.cpp](pe_inject.cpp)
   c++, inject message box to all **.exe** file in current folder
 
-## [packes.asm](packes.asm)
+## [pe_injector.asm](pe_injector.asm)
   asm, windows api, dependent code, inject message box to all **.exe** file in current folder
   
-## [packer.asm](packer.asm)
+## [pe_inject.asm](pe_inject.asm)
   asm, windows api, independent code, self infect all **.exe** file in current folder
 
-## [depacker.cpp](depacker.cpp)
+## [pe_uninject.cpp](pe_uninject.cpp)
   c++, remove injected code and restore file
